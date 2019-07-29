@@ -336,8 +336,8 @@ code {
   text-align: center;
   padding: 5px;
   z-index: 20;
-  padding-left: $nav-width;
+  padding-left: 0;
   @media (min-width: $menu-threshold) {
-    padding-left: 0;
+    padding-left: $nav-width;
   }
 }
