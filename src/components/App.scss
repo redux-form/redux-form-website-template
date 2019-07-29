@@ -143,6 +143,7 @@ code {
 .app {
   display: flex;
   flex-flow: row nowrap;
+  padding-top: 30px;
 }
 
 .topNav {
@@ -158,7 +159,7 @@ code {
   .brand {
     position: absolute;
     left: 70px;
-    top: 12px;
+    top: 42px;
     background: url('./brand.png') no-repeat 0 0;
     width: 66px;
     height: 40px;
@@ -319,5 +320,24 @@ code {
     position: fixed;
     left: -1000px;
     top: -1000px;
+  }
+}
+
+#triplebyte {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 5px;
+  z-index: 20;
+  padding-left: $nav-width;
+  @media (min-width: $menu-threshold) {
+    padding-left: 0;
   }
 }
