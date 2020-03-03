@@ -12,16 +12,16 @@ const App = ({ children, path, version, breadcrumbs }) => {
   return (
     <div className={cx(styles.app, { [styles.hasNav]: !isHome })}>
       {!isHome && <Nav path={path} url={url} />}
-      <div className={styles.triplebyte}>
-        💰{" "}
+      <div className={styles.formnerd}>
+        🤔{" "}
         <strong>
-          Wanna get paid the big bucks writing React?{" "}
-          <a href="https://triplebyte.com/a/V6j0KPS/rfcom" target="_blank">
-            Take this quiz
+          Do you know <em>HOW</em> users use your form?{" "}
+          <a href="https://formnerd.co/redux-form" target="_blank">
+            Find out with Form Nerd!
           </a>{" "}
-          and get offers from top tech companies!
+          From the creator of Redux Form.
         </strong>{" "}
-        💰
+        🤓
       </div>
       <div className={styles.contentAndFooter}>
         <div className={styles.topNav}>

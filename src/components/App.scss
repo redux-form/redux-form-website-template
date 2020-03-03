@@ -1,6 +1,6 @@
-@import './constants';
-@import '../vendor/prism';
-@import './form';
+@import "./constants";
+@import "../vendor/prism";
+@import "./form";
 
 html,
 body,
@@ -74,8 +74,8 @@ figure {
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.4em;
   font-size: 14px;
 }
@@ -126,12 +126,12 @@ li {
   margin-left: 20px;
 }
 
-:not(pre) > code[class*='language-'],
-pre[class*='language-'] {
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
   background: none;
 }
 
-pre[class*='language-'] {
+pre[class*="language-"] {
   margin: 0 15px;
   padding: 0;
 }
@@ -160,11 +160,11 @@ code {
     position: absolute;
     left: 70px;
     top: 42px;
-    background: url('./brand.png') no-repeat 0 0;
+    background: url("./brand.png") no-repeat 0 0;
     width: 66px;
     height: 40px;
     &:hover {
-      background: url('./brand.png') no-repeat 0 0;
+      background: url("./brand.png") no-repeat 0 0;
     }
   }
   .github {
@@ -266,7 +266,7 @@ code {
     font-size: 14px;
     line-height: 1.4;
     text-align: center;
-    font-family: system, 'Helvetica Neue', Helvetica, Arial;
+    font-family: system, "Helvetica Neue", Helvetica, Arial;
     margin-left: auto;
     margin-right: auto;
   }
@@ -278,13 +278,13 @@ code {
     margin-bottom: 8px;
 
     &:before {
-      content: '—';
+      content: "—";
       margin: 0 0.5em;
       opacity: 0.5;
     }
 
     &:after {
-      content: '—';
+      content: "—";
       margin: 0 0.5em;
       opacity: 0.5;
     }
@@ -323,7 +323,7 @@ code {
   }
 }
 
-.triplebyte {
+.formnerd {
   position: fixed;
   top: 0;
   left: 0;
