@@ -1,9 +1,9 @@
-import React from 'react'
-import GithubButton from './GithubButton'
-import CodeFund from './CodeFund'
+import React from "react";
+import GithubButton from "./GithubButton";
+import Sponsor from "./Sponsor";
 
 const Home = ({ version }) => {
-  const styles = require('./Home.scss')
+  const styles = require("./Home.scss");
   return (
     <div className={styles.home}>
       <div className={styles.masthead}>
@@ -12,6 +12,26 @@ const Home = ({ version }) => {
         <div className={styles.version}>v{version}</div>
 
         <h2>The best way to manage your form state in Redux.</h2>
+        <h3
+          style={{
+            padding: 15,
+            backgroundColor: "rgba(255,255,255,0.2)",
+            color: "black",
+            fontSize: 18,
+            borderRadius: 10,
+            maxWidth: 700,
+            margin: "5px auto 15px auto",
+          }}
+        >
+          Attention: Do not begin a project with Redux Form. The author of Redux
+          Form has written a superior library,{" "}
+          <a href="https://final-form.org/react/">React Final Form</a>. If you
+          have already started using Redux Form, there is a{" "}
+          <a href="https://final-form.org/docs/react-final-form/migration/redux-form">
+            migration guide
+          </a>
+          .
+        </h3>
         <GithubButton
           user="erikras"
           repo="redux-form"
@@ -30,9 +50,9 @@ const Home = ({ version }) => {
           count
           large
         />
-        <div style={{ textAlign: 'center' }}>
+        <div style={{ textAlign: "center" }}>
           <hr />
-          <CodeFund />
+          <Sponsor dark />
         </div>
       </div>
       <div className={styles.options}>
@@ -54,7 +74,7 @@ const Home = ({ version }) => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

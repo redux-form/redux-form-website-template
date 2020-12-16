@@ -1,6 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom/server'
-import App from './components/App'
+import React from "react";
+import ReactDOM from "react-dom/server";
+import App from "./components/App";
 
 const render = ({ component, title, path, version, breadcrumbs }) =>
   `<!DOCTYPE html>
@@ -27,8 +27,6 @@ const render = ({ component, title, path, version, breadcrumbs }) =>
       }
     </style>
     <script type="text/javascript">var abp;</script>
-    <script type="text/javascript" src="https://cdn2.codefund.app/assets/px.js?ch=1"></script>
-    <script type="text/javascript" src="https://cdn2.codefund.app/assets/px.js?ch=2"></script>
   </head>
   <body>
   <div id="content">
@@ -61,7 +59,8 @@ const render = ({ component, title, path, version, breadcrumbs }) =>
     ga('send', 'pageview');
   </script>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
   </body>
-  </html>`
+  </html>`;
 
-export default render
+export default render;

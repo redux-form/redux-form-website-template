@@ -1,0 +1,18 @@
+@import "./constants";
+
+.benevolentSponsor {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  min-height: 252px;
+  &.dark {
+    :global(.ea-text) a {
+      color: white !important;
+    }
+    &:hover {
+      :global(.ea-text) a {
+        color: white !important;
+      }
+    }
+  }
+}
