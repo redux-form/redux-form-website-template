@@ -15,7 +15,7 @@ const Home = ({ version }) => {
         <h3
           style={{
             padding: 15,
-            backgroundColor: "rgba(255,255,255,0.2)",
+            backgroundColor: "rgba(255,255,255,0.5)",
             color: "black",
             fontSize: 18,
             borderRadius: 10,
