@@ -20,7 +20,8 @@ const Home = ({ version }) => {
             fontSize: 18,
             borderRadius: 10,
             maxWidth: 700,
-            margin: "5px auto 15px auto",
+            margin: "5px auto 20px auto",
+            boxShadow: "inset 2px 5px 5px rgba(0,0,0,0.5)",
           }}
         >
           Attention: Do not begin a project with Redux Form. The author of Redux
