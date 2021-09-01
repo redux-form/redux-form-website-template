@@ -1,3 +1,5 @@
+import styles from "./TwitterFollowButton.scss";
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
@@ -13,7 +15,7 @@ const TwitterFollowButton = ({ username, showUsername, showCount, large }) => {
     props[ 'data-size' ] = 'large'
   }
   return (
-    <a href={`https://twitter.com/${username}`} className="twitter-follow-button" {...props}>
+    <a href={`https://twitter.com/${username}`} className={styles.twitterFollowButton} {...props}>
       Follow @{username}
     </a>
   )

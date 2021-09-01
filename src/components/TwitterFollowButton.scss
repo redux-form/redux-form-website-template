@@ -1,0 +1,7 @@
+@import "./constants";
+
+.twitterFollowButton {
+  & a:not(:last_child) {
+    margin-right: 10px;
+  } 
+}
