@@ -28,7 +28,7 @@ const App = ({ children, path, version, breadcrumbs }) => {
           <a href="https://redux-form.com" className={styles.brand} />
           <a
             className={styles.github}
-            href="https://github.com/erikras/redux-form"
+            href="https://github.com/redux-form/redux-form"
             title="Github"
             target="_blank"
           >
@@ -60,7 +60,7 @@ const App = ({ children, path, version, breadcrumbs }) => {
             </a>
             <a
               className={styles.help}
-              href="https://github.com/erikras/redux-form/issues/new"
+              href="https://github.com/redux-form/redux-form/issues/new"
               title="Github"
               target="_blank"
             >

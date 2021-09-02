@@ -34,7 +34,7 @@ const Home = ({ version }) => {
           .
         </h3>
         <GithubButton
-          user="erikras"
+          user="redux-form"
           repo="redux-form"
           type="star"
           width={160}
@@ -43,7 +43,7 @@ const Home = ({ version }) => {
           large
         />
         <GithubButton
-          user="erikras"
+          user="redux-form"
           repo="redux-form"
           type="fork"
           width={160}
